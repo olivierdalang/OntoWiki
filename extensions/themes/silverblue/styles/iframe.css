@@ -1,0 +1,21 @@
+/* STYLE FOR ONTOWIKI WHEN IN VENICE TIME MACHINE IFRAME */
+
+body{
+    background: none !important;
+}
+.section-sidewindows{
+    display: none !important;
+}
+.section-mainwindows{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.window.tabbed.windowbuttonscount-right-1.has-menu{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.window.tabbed.windowbuttonscount-right-1.has-menu-disabled.is-minimized{
+    display: none !important;
+}

@@ -84,6 +84,14 @@
 
 <body class="javascript-off" xmlns:update="http://ns.aksw.org/update/">
 
+    <!-- ADDED : LOAD SPECIAL CSS IF IN IFRAME -->
+    <script>
+    if( self != top ) {
+        var head = document.getElementsByTagName('head')[0];                
+        $(head).append($("<link/>", { rel: "stylesheet", href: '<?= $this->themeUrlBase ?>styles/iframe.css', type: "text/css" } ));
+    }
+    </script>
+
     <script type="text/javascript">
         // get body element
         var body = document.body;
